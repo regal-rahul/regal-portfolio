@@ -50,6 +50,80 @@ a {
   font-size: 48px;
   font-weight: bolder;
 }
+.work-title {
+  margin: 0 5%;
+  padding: 0 15px;
+  font-size: 36px;
+  font-weight: bold;
+}
 .main-intro {
   color: white;
+}
+.card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+}
+
+.card-container {
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card-image {
+  width: 300px;
+}
+
+.quote {
+  text-align: center;
+  width: 100%;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #e5e7eb;
+}
+.contact {
+  margin: 5% 0;
+  padding: 24px 0;
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.contact-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact-title {
+  margin: 0 5%;
+  padding: 0 30px;
+  font-size: 36px;
+  font-weight: bolder;
+}
+.contact-button {
+  height: fit-content;
+  padding: 9px 45px;
+  font-size: large;
+}
+.contact-links {
+  color: white;
+}
+.main-button {
+  margin: 36px;
+  height: fit-content;
+  padding: 9px 45px;
+  font-size: large;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #e5e7eb;
 }
