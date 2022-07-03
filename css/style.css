@@ -60,7 +60,7 @@ a {
   color: white;
 }
 .card {
-  border: 1px solid #eee;
+  border: 2px solid #eee;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
   border-radius: 4px;
   padding: 16px;
@@ -139,4 +139,7 @@ button:hover {
   border-radius: 50% 0;
   background-color: #32435a;
   color: aqua;
+}
+.card:hover {
+  border-color: aqua;
 }
