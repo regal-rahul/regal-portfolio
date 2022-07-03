@@ -134,3 +134,9 @@ button {
   background-color: #1f2937;
   color: aqua;
 }
+button:hover {
+  border-color: aqua;
+  border-radius: 50% 0;
+  background-color: #32435a;
+  color: aqua;
+}
