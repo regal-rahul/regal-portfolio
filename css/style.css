@@ -40,9 +40,11 @@ a {
   text-decoration: none;
 }
 .nav-links {
+  font-size: 22px;
   color: white;
 }
 .header-title {
+  font-size: 28px;
   color: white;
 }
 .main-title {
@@ -136,7 +138,7 @@ button {
 }
 button:hover {
   border-color: aqua;
-  border-radius: 50% 0;
+  border-radius: 0 40%;
   background-color: #32435a;
   color: aqua;
 }
